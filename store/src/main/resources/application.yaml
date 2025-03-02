@@ -1,0 +1,13 @@
+#apl.prop vs yaml -> keine Redundanten
+#enter oder 2x space
+spring:
+  application:
+    name: store
+
+stripe:
+  apiUrl: https://api.stripe.com
+  timeout: 1000
+  enabled: true
+  supported-currencies: USD,EUR,GBP
+
+payment-gateway: paypal
