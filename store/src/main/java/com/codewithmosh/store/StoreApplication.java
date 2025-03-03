@@ -13,10 +13,6 @@ public class StoreApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(StoreApplication.class, args);
-		var userService = context.getBean(UserService.class);
-		userService.registerUser(new User(1L, "peter@gmx.de", "qwerty", "peter"));
-		//throw Exception
-		userService.registerUser(new User(1L, "peter@gmx.de", "qwerty", "peter"));
 	}
 
 }
