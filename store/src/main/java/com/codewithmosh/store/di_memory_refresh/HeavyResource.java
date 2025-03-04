@@ -1,4 +1,4 @@
-package com.codewithmosh.store;
+package com.codewithmosh.store.di_memory_refresh;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;

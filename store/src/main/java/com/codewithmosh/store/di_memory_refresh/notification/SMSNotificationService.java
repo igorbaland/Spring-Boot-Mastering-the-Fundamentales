@@ -1,4 +1,4 @@
-package com.codewithmosh.store.notification;
+package com.codewithmosh.store.di_memory_refresh.notification;
 
 import org.springframework.stereotype.Service;
 

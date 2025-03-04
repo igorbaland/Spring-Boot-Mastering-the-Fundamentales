@@ -1,6 +1,6 @@
-package com.codewithmosh.store.registration;
+package com.codewithmosh.store.di_memory_refresh.registration;
 
-import com.codewithmosh.store.notification.NotificationService;
+import com.codewithmosh.store.di_memory_refresh.notification.NotificationService;
 import org.springframework.stereotype.Service;
 
 @Service

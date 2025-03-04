@@ -1,4 +1,4 @@
-package com.codewithmosh.store;
+package com.codewithmosh.store.di_memory_refresh;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;

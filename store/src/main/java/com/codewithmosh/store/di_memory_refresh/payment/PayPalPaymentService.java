@@ -1,6 +1,4 @@
-package com.codewithmosh.store.payment;
-
-import org.springframework.stereotype.Service;
+package com.codewithmosh.store.di_memory_refresh.payment;
 
 //@Service("paypal")
 public class PayPalPaymentService implements PaymentService {

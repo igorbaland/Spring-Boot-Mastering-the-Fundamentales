@@ -1,13 +1,11 @@
-package com.codewithmosh.store;
+package com.codewithmosh.store.di_memory_refresh;
 
-import com.codewithmosh.store.payment.PayPalPaymentService;
-import com.codewithmosh.store.payment.PaymentService;
-import com.codewithmosh.store.payment.StripePaymentService;
+import com.codewithmosh.store.di_memory_refresh.payment.PayPalPaymentService;
+import com.codewithmosh.store.di_memory_refresh.payment.PaymentService;
+import com.codewithmosh.store.di_memory_refresh.payment.StripePaymentService;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class AppConfig {
